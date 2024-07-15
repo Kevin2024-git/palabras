@@ -1,0 +1,10 @@
+def concatenar_palabras(hoja, arbol):
+    resultado = hoja + " " + arbol
+    return resultado
+
+# Ejemplo de uso
+hoja = input("hoja: ")
+arbol = input("arbol: ")
+cuaderno = concatenar_palabras(hoja, arbol=)
+print(f"Las palabras concatenadas son: {cuaderno}")
+
